@@ -1,0 +1,46 @@
+** {
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+    } 
+.container {
+    width: 880px;       
+    margin: auto;
+    text-align: center;    
+}
+.header {
+    margin: 30px;
+}
+.menulist {
+    list-style: none;
+    margin: 0; /* Обнуляем значение отступов */
+    padding-top: 20px; /* Значение полей */
+}
+.list-item {
+    display: inline-block; /* Отображать как строчный элемент */
+    margin-right: 30px; /* Отступ слева */
+    padding: 20px; /* Поля вокруг текста */ 
+}
+a {
+     text-decoration: none; /* Отменяем подчеркивание у ссылки */
+     color: black;
+}
+li a:hover {
+    color: #03a9f4; /* Цвет текста активного пункта */
+}
+p, h3 { 
+    text-align: left;
+    color: #626262;
+}
+.article {
+    display: inline-block;
+    width: 430px;
+}
+button {
+    display: block;
+    border: 1px solid #808080;
+    padding: 10px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 15px;
+}

@@ -38,9 +38,17 @@
 .item {
     list-style: none;
     display: inline-block;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
+    /* font-family: "Open Sans", sans-serif;
+    font-weight: bold;
     color: #000000;
+    margin-right: 35px; */
+    float: right;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 11px;
+    color: #000000;
+    font-family: "Open Sans";
+    font-weight: bold;
     margin-right: 35px;
 }
 .item:hover {
@@ -57,7 +65,7 @@
     content: "";
     margin-top: 30px;
     display: block;
-    margin: auto;
+    margin-left: 480px;
     width: 160px;
     height: 7px;
     background-color:  #1abc9c;
@@ -94,7 +102,7 @@
     width: 202px;
     height: 40px;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 14px;
     background-color: #323232;
     line-height: 40px;
     padding-left: 13px;
@@ -116,18 +124,18 @@
     color: #7fd9c7;
 }
 .title_news {
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     text-align: center;
     text-transform: uppercase;
     font-size: 34px;
-    padding-top: 35px;
+    padding-top: 100px;
     color: #555252;
 }
 .title_news:after {
     content: "";
     margin-top: 30px;
     display: block;
-    margin: auto;
+    margin-left: 480px;
     width: 140px;
     height: 5px;
     background-color:  #1abc9c;
@@ -159,7 +167,8 @@
     width: 136px;
     height: 3px;
     background-color: rgba(26, 188, 156, 255);
-    margin-top: 11px;        
+    margin-top: 11px; 
+    margin-bottom: 15px;       
 }
 .article_text {
     font-size: 14px;

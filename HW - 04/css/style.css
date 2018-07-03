@@ -15,7 +15,7 @@
 }
 
 .header {
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 .logo_name {
     font-family: 'Roboto', sans-serif;
@@ -58,7 +58,6 @@
     text-align: center;
     text-transform: uppercase;
     font-size: 34px;
-    padding-top: 35px;
     color: #555252;
 }
 .title:after {
@@ -71,7 +70,7 @@
     background-color:  #1abc9c;
 }
 .products {
-    margin-top: 90px;
+    margin-top: 70px;
 }
 .product {
     display: block;
@@ -117,18 +116,18 @@
     text-align: center;
     font-size: 18px;
 }
-.product_discription:hover {
-    color: #1abc9c;
+.product:hover .product_discription {
+    background-color: #1abc9c;
 }
-.price:hover {
-    color: #7fd9c7;
+.product:hover .price {
+    background-color: #7fd9c7;
 }
 .title_news {
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     text-align: center;
     text-transform: uppercase;
     font-size: 34px;
-    padding-top: 100px;
+    padding-top: 80px;
     color: #555252;
 }
 .title_news:after {

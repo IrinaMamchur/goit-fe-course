@@ -1,6 +1,6 @@
 /* montserrat-regular - latin */
 @font-face {
-  font-family: "Montserrat";
+  font-family: "Montserrat Regular";
   font-style: normal;
   font-weight: 400;
   src: local("Montserrat Regular"), local("Montserrat-Regular"),
@@ -10,7 +10,7 @@
 }
 /* montserrat-700 - latin */
 @font-face {
-  font-family: "Montserrat";
+  font-family: "Montserrat Bold";
   font-style: normal;
   font-weight: 700;
   src: local("Montserrat Bold"), local("Montserrat-Bold"),
@@ -20,13 +20,23 @@
 }
 /* montserrat-800 - latin */
 @font-face {
-  font-family: "Montserrat";
+  font-family: "Montserrat ExtraBold";
   font-style: normal;
   font-weight: 800;
   src: local("Montserrat ExtraBold"), local("Montserrat-ExtraBold"),
     url("../fonts/montserrat-v12-latin-800.woff2") format("woff2"),
     /* Super Modern Browsers */ url("../fonts/montserrat-v12-latin-800.woff")
       format("woff"); /* Modern Browsers */
+}
+/* roboto-slab-regular - latin */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-slab-v7-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
+       url('../fonts/roboto-slab-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-slab-v7-latin-regular.woff') format('woff'), /* Modern Browsers */      
 }
 * {
   margin: 0;
@@ -43,12 +53,12 @@ a {
 }
 
 .wrapper {
-  width: 950px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .header-wrapper {
   width: 950px;
+  margin: auto;
 }
 
 .navigation {
@@ -73,7 +83,7 @@ a {
 .nav-item {
   font-size: 14px;
   line-height: 41px;
-  font-family: "Montserrat", "Open Sans", sans-serif;
+  font-family: "Montserrat Bold", "Open Sans", sans-serif;
   text-align: center;
   color: #212121;
   text-transform: uppercase;
@@ -87,6 +97,8 @@ a {
 .section_one {
   padding-top: 120px;
   width: 950px;
+  margin: auto;
+  padding-bottom: 120px;
 }
 
 .services {
@@ -95,14 +107,14 @@ a {
   letter-spacing: -1px;
   line-height: 75px;
   color: rgb(34, 34, 34);
-  font-family: "Montserrat","Open Sans", sans-serif;
+  font-family: "Montserrat ExtraBold","Open Sans", sans-serif;
   font-weight: bold;
   text-align: center;
 }
 
 .sub-title {
   font-size: 16px;
-  font-family: c, RobotoSlab-Regular, AdobeInvisFont, MyriadPro-Regular;, serif;
+  font-family: "DroidSerif-Italic", "Roboto Slab", serif;
   font-style: italic;
   text-align: center;
 }
@@ -145,12 +157,12 @@ a {
 }
 
 .section-two {
-  margin-top: 120px;
-  /* width: 1400px; */
+  margin: auto;
+  background-color: #222222;
 }
 
 .profile-form {
-  background-color: #222222;
+  margin: auto;
   width: 950px;
   height: 675px;
 }
@@ -160,7 +172,7 @@ a {
   font-size: 40px;
   letter-spacing: -1px;
   color: rgb(255, 255, 255);
-  font-family: "Montserrat", "Open Sans", sans-serif;
+  font-family: "Montserrat ExtraBold", "Open Sans", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
@@ -189,10 +201,10 @@ a {
   justify-content: space-between;
 }
 .required:valid {
-  outline: 10px solid #00ff00;
+  outline: 4px solid #00ff00;
 }
 .required:invalid {
-  outline: 10px solid #ff0000;
+  outline: 4px solid #ff0000;
 }
 .form {
   width: 454px;
@@ -204,7 +216,7 @@ a {
   font-size: 14px;
   letter-spacing: 0px;
   color: rgb(187, 187, 187);
-  font-family: "Montserrat", "Open Sans", sans-serif;
+  font-family: "Montserrat Bold", "Open Sans", sans-serif;
   font-weight: bold;
 }
 
@@ -222,7 +234,7 @@ a {
   font-size: 14px;
   letter-spacing: 0px;
   color: rgb(187, 187, 187);
-  font-family: "Montserrat", "Open Sans", sans-serif;
+  font-family: "Montserrat Bold", "Open Sans", sans-serif;
   font-weight: bold;
 }
 
@@ -240,7 +252,7 @@ a {
 .button {
   font-size: 18px;
   color: rgb(255, 255, 255);
-  font-family: "Montserrat", "Open Sans", sans-serif;
+  font-family: "Montserrat Bold", "Open Sans", sans-serif;
   font-weight: bold;
   text-align: center;
   width: 240px;

@@ -169,7 +169,9 @@ a {
     justify-content: space-between;
     padding-top: 90px;
 }
-
+.member {
+    display: block;
+}
 .card {
     position: relative;
     width: 380px;

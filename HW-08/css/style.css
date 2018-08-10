@@ -14,18 +14,6 @@ a {
   padding-top: 1.25rem;
   padding-bottom: 8.625rem;
 }
-
-
-/* @media (min-width: 320px) .wrapper-header {
-  max-width: 767px;
-  margin: auto;
-
-.nav-box {
-  width: 9, 56rem;
-  height: 2, 25rem;
-  display: flex;
-  justify-content: space-between;
-} */
 .nav-box {
   display: flex;
   flex-direction: column-reverse;

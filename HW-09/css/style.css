@@ -152,7 +152,8 @@ a {
 
 .header__cont {
     display:  grid;
-    grid-template: repeat(6, 1fr) / 1fr;
+    /* (6 повторяющихся строк, высотой в 1 фракцию) */
+    grid-template: repeat(6, 1fr) / 1fr; 
     grid-template-areas:
             'n'
             '.'
@@ -175,6 +176,7 @@ a {
 }
 .g-btn {
     grid-area: b;
+    /* Элемент выравнивается в конце поперечной оси контейнера. */
     align-self: flex-end;
 }
 .team__cont {

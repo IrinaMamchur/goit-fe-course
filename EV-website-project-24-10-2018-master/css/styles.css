@@ -4,6 +4,7 @@ html {
 
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
@@ -52,6 +53,10 @@ html {
   text-shadow: 0.2rem 0.3464rem 0.4rem rgba(0, 0, 0, 0.07);
 }
 
+.social-icons {
+  padding-left: 8%;
+}
+
 ul.social-icons li {
   display: inline-block;
   margin: 0;
@@ -84,4 +89,10 @@ ul.social-icons li {
   color: #12818e;
   font-family: "Exo2", Arial, sans-serif;
   text-transform: capitalize;
+}
+
+@media (min-width: 771px){
+.social-icons {
+  padding-left: 3%;
+}
 }

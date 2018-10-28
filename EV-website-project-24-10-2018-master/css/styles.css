@@ -1,107 +1,93 @@
 html {
-  font-size: 10px;
+    font-size: 10px;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style-type: none;
-  text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
 }
 
 @font-face {
-  font-family: "Exo2";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/Exo_2/Exo2-Regular.ttf") format("ttf"),
-    url("../fonts/Exo_2/exo-2-v4-latin_cyrillic-regular.woff2") format("woff2");
+    font-family: "Exo2";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Exo_2/Exo2-Regular.ttf") format("ttf"),
+        url("../fonts/Exo_2/exo-2-v4-latin_cyrillic-regular.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "OpenSans";
-  font-style: semibold;
-  font-weight: 600;
-  src: url("../fonts/Open_Sans/OpenSans-SemiBold.ttf") format("ttf"),
-    url(../fonts/Open_Sans/open-sans-v15-latin_cyrillic_cyrillic-ext-600.woff2)
-      format("woff2");
+    font-family: "OpenSans";
+    font-style: semibold;
+    font-weight: 600;
+    src: url("../fonts/Open_Sans/OpenSans-SemiBold.ttf") format("ttf"),
+        url(../fonts/Open_Sans/open-sans-v15-latin_cyrillic_cyrillic-ext-600.woff2) format("woff2");
 }
 
 /* FOOTER */
 
 .wrapper-footer {
-  background-color: #18bed0;
-  margin-top: 19rem;
-  min-height: 25rem;
-  height: auto;
-  max-width: 100%;
+    background-color: #18bed0;
+    margin-top: 19rem;
+    min-height: 25rem;
+    height: auto;
+    max-width: 100%;
 }
 
 .footer-logo {
-  padding-top: 7rem;
-  padding-bottom: 3.8rem;
+    padding-top: 7rem;
+    padding-bottom: 3.8rem;
 }
 
 .footer-logo-name {
-  font-size: 1.9rem;
-  letter-spacing: 0.1rem;
-  line-height: 1.8rem;
-  color: #aee8ef;
-  font-family: "Montserrat", Arial, sans-serif;
-  font-weight: bold;
-  text-shadow: 0.2rem 0.3464rem 0.4rem rgba(0, 0, 0, 0.07);
-}
-
-.social-icons {
-  padding-left: 8%;
+    font-size: 1.9rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.8rem;
+    color: #aee8ef;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: bold;
+    text-shadow: 0.2rem 0.3464rem 0.4rem rgba(0, 0, 0, 0.07);
 }
 
 ul.social-icons li {
-  display: inline-block;
-  margin: 0;
-  margin-right: 5px;
+    display: inline-block;
+    margin: 0;
+    margin-left: 14px;
+}
+
+ul.social-icons li:nth-last-child(5) {
+    margin-left: 0px;
 }
 
 .icon-link {
-  font-size: 1.3rem;
-  letter-spacing: 0.2rem;
-  line-height: 1.8rem;
-  color: #2e2e2e;
-  font-family: "Exo2", Arial, sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+    font-size: 1.3rem;
+    letter-spacing: 0.2rem;
+    line-height: 1.8rem;
+    color: #2e2e2e;
+    font-family: "Exo2", Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
 }
 
 .icon-link:hover {
-  color: #00ffff;
+    color: #00ffff;
 }
 
 .footer-copyright {
-  padding-top: 3.8rem;
-  font-size: 1.3rem;
-  line-height: 1.8rem;
-  color: #12818e;
-  font-family: "Exo2", Arial, sans-serif;
-  text-transform: capitalize;
+    padding-top: 3.8rem;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    color: #12818e;
+    font-family: "Exo2", Arial, sans-serif;
+    text-transform: capitalize;
 }
 
-@media (min-width: 771px){
-.social-icons {
-  padding-left: 3%;
-}
-ul.social-icons li {
-  margin-right: 15px;
-}
-}
-
-@media (min-width: 1200px){
-  .social-icons {
-    padding-left: 2%;
-  }
-}
+  

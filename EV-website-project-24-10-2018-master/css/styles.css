@@ -60,7 +60,7 @@ html {
 ul.social-icons li {
   display: inline-block;
   margin: 0;
-  margin-right: 15px;
+  margin-right: 5px;
 }
 
 .icon-link {
@@ -95,4 +95,13 @@ ul.social-icons li {
 .social-icons {
   padding-left: 3%;
 }
+ul.social-icons li {
+  margin-right: 15px;
+}
+}
+
+@media (min-width: 1200px){
+  .social-icons {
+    padding-left: 2%;
+  }
 }

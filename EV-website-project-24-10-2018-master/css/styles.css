@@ -55,10 +55,11 @@ html {
   display: flex;
   justify-content: space-between;
 }
-ul.social-icons li {
+
+.icon {
   display: inline-block;
   margin: 0;
-  margin-left: 14px;
+  padding: 0 7px;
 }
 
 .social-icons {
@@ -93,7 +94,7 @@ ul.social-icons li {
   background-color: #11a4b6;
   height: 20px;
   position: absolute;
-  left: 37%;
+  left: 61%;
 }
 .icon-link::before {
   content: " ";
@@ -102,7 +103,7 @@ ul.social-icons li {
   background-color: #11a4b6;
   height: 20px;
   position: absolute;
-  left: 63%;
+  left: 35%;
 }
 .footer-copyright {
   padding-top: 3.8rem;
@@ -120,5 +121,15 @@ ul.social-icons li {
     background-color: #11a4b6;
     height: 20px;
     position: absolute;
-    left: 38%;
+    left: 60%;
+}
+.icon-link::before {
+  content: " ";
+  display: inline-block;
+  width: 1px;
+  background-color: #11a4b6;
+  height: 20px;
+  position: absolute;
+  left: 36%;
+}
 }

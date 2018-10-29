@@ -93,7 +93,7 @@ ul.social-icons li {
   background-color: #11a4b6;
   height: 20px;
   position: absolute;
-  left: 38%;
+  left: 37%;
 }
 .icon-link::before {
   content: " ";
@@ -111,4 +111,14 @@ ul.social-icons li {
   color: #12818e;
   font-family: "Exo2", Arial, sans-serif;
   text-transform: capitalize;
+}
+@media screen and (min-width: 330px) {
+  .icon-link::after {
+    content: " ";
+    display: inline-block;
+    width: 1px;
+    background-color: #11a4b6;
+    height: 20px;
+    position: absolute;
+    left: 38%;
 }

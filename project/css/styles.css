@@ -1,14 +1,14 @@
 html {
   font-size: 10px;
 }
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
   text-align: center;
-}
+} */
 
 @font-face {
   font-family: "Exo2";
@@ -31,10 +31,13 @@ html {
 
 .wrapper-footer {
   background-color: #18bed0;
-  margin-top: 19rem;
+  /* margin-top: 19rem; */
   min-height: 25rem;
   height: auto;
   max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
 }
 
 .footer-logo {
@@ -43,6 +46,7 @@ html {
 }
 
 .footer-logo-name {
+  display: inline-block;
   font-size: 1.9rem;
   letter-spacing: 0.1rem;
   line-height: 1.8rem;
@@ -50,26 +54,34 @@ html {
   font-family: "Montserrat", Arial, sans-serif;
   font-weight: bold;
   text-shadow: 0.2rem 0.3464rem 0.4rem rgba(0, 0, 0, 0.07);
+  cursor: pointer;
+  text-decoration: none;
 }
-.social-icons-links {
-  display: flex;
-  justify-content: space-between;
-}
-
 .icon {
-  display: inline-block;
-  margin: 0;
+  list-style-type: none;
 }
 
+/* .icon:last-child {
+  padding-left: 10px;
+}  */
+
+.social-icons-links {
+  position: relative;
+  left: 5px;
+}
 .social-icons {
   margin: auto;
   text-align: center;
   width: 34.6rem;
-  justify-content: space-between;
   position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 0;
 }
+
 .icon-link {
-  padding: 0 7px;
+  text-decoration: none;
+  padding: 0 20px;
   font-size: 1.3rem;
   letter-spacing: 0.2rem;
   line-height: 1.8rem;
@@ -90,8 +102,11 @@ html {
 
 .icon-link_twitter {
   position: relative;
+  text-align: center;
 }
-
+.icon-link_twitter {
+  vertical-align: middle;
+}
 .icon-link_twitter::after {
   content: " ";
   display: inline-block;
@@ -115,6 +130,8 @@ html {
   right: 0;
   top: 0;
   height: 100%;
+}
+.icon-link_instagram {
 }
 .footer-copyright {
   padding-top: 3.8rem;

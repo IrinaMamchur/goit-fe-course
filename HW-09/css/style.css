@@ -72,7 +72,10 @@ a,
     padding-bottom: 20px;
 }
 
-.container:nth-child(2) {
+/* .container:nth-child(2) {
+    padding: 65px 0 75px;
+} */
+.nav:nth-child(2) {
     padding: 65px 0 75px;
 }
 
